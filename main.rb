@@ -1,19 +1,13 @@
-require "./animal"
 require "./human"
 
-animal = Animal.new("田中 太郎", 25)
-animal.say
-tanaka = Human.new("電車")
+tanaka = Human.new("田中 太郎", 25, "電車")
+tanaka.say
 tanaka.think
 
-animal = Animal.new("鈴木 次郎", 30)
-animal.say
-suzuki = Human.new("野球")
+suzuki = Human.new("鈴木 次郎", 30, "野球")
+suzuki.say
 suzuki.think
 
-animal = Animal.new("佐藤 花子", 20)
-animal.say
-sato   = Human.new("映画")
+sato = Human.new("佐藤 花子", 20, "映画")
+sato.say
 sato.think
-
-
